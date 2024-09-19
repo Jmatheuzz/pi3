@@ -1,0 +1,73 @@
+/* Container principal da página de registro */
+.register-page {
+  background-color: #F7F7FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container do formulário de registro */
+.register-container {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #FFFFFF; /* Cor de fundo do container */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra um pouco mais forte */
+  max-width: 500px; /* Aumentado para permitir um container mais largo */
+  width: 100%; /* Largura total com base na largura máxima */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha os itens no centro horizontalmente */
+}
+
+/* Título do formulário */
+.register-container h1 {
+  margin: 0 0 25px; /* Aumentado o espaçamento abaixo do título */
+  font-size: 28px; /* Aumentado o tamanho da fonte do título */
+  color: #333; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Formulário de registro */
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Garante que o formulário ocupe toda a largura do container */
+}
+
+/* Estilo geral para campos de entrada e botões */
+.register-form > * {
+  margin-bottom: 10px; /* Aumentado o espaçamento entre os elementos */
+  width: 100%; /* Ocupa toda a largura disponível */
+  box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+/* Estilo para mensagens de erro nos campos */
+.input-field-error {
+  color: #d9534f; /* Cor vermelha para mensagens de erro */
+  font-size: 14px; /* Tamanho da fonte para mensagens de erro */
+  margin-top: -10px; /* Espaçamento acima da mensagem de erro */
+  margin-bottom: 15px; /* Espaçamento abaixo da mensagem de erro */
+}
+
+/* Link para login */
+.login-link {
+  text-align: center;
+  margin-top: 10px; /* Aumentado o espaçamento acima do link */
+}
+
+.login-link a {
+  color: #007BFF; /* Cor do link */
+  text-decoration: none;
+  font-size: 16px; /* Aumentado o tamanho da fonte do link */
+}
+
+.login-link a:hover {
+  text-decoration: underline; /* Sublinhado ao passar o mouse */
+}

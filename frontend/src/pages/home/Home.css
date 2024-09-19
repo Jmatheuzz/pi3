@@ -1,0 +1,26 @@
+.home {
+  font-family: Arial, sans-serif;
+}
+  
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 60px;
+}
+  
+.left-container, .center-container, .right-container {
+  flex: 1;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+  
+.left-container, .right-container {
+  max-width: 300px;
+  margin-left: 0;
+}
+  
+.center-container {
+  flex: 2;
+}
